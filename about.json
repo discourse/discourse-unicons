@@ -1,0 +1,10 @@
+{
+  "name": "discourse-unicons",
+  "description": "Unicons for Discourse",
+  "about_url": null,
+  "license_url": null,
+  "component": true,
+  "assets": {
+    "icons-sprite": "/assets/icons-sprite.svg"
+  }
+}
