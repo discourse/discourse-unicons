@@ -78,7 +78,10 @@ function initIcons(api) {
   api.replaceIcon("notification.liked", "un-heart");
   api.replaceIcon("notification.linked", "un-link-alt");
   api.replaceIcon("notification.membership_request_accepted", "un-user-plus");
-  api.replaceIcon("notification.membership_request_consolidated", "un-users-alt");
+  api.replaceIcon(
+    "notification.membership_request_consolidated",
+    "un-users-alt"
+  );
   api.replaceIcon("notification.mentioned", "un-at");
   api.replaceIcon("notification.post_approved", "un-check");
   api.replaceIcon("notification.posted", "un-corner-up-left");
@@ -115,4 +118,3 @@ export default {
     withPluginApi("0.10.1", initIcons);
   },
 };
-
