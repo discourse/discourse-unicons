@@ -115,6 +115,6 @@ function initIcons(api) {
 export default {
   name: "unicons",
   initialize() {
-    withPluginApi("0.10.1", initIcons);
+    withPluginApi(initIcons);
   },
 };
